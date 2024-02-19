@@ -14,6 +14,12 @@
 		4C7E81542B83539600CFE55A /* MC3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C7E81532B83539600CFE55A /* MC3Tests.swift */; };
 		4C7E815E2B83539600CFE55A /* MC3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C7E815D2B83539600CFE55A /* MC3UITests.swift */; };
 		4C7E81602B83539600CFE55A /* MC3UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C7E815F2B83539600CFE55A /* MC3UITestsLaunchTests.swift */; };
+		4C7E816D2B8353F700CFE55A /* ButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C7E816C2B8353F700CFE55A /* ButtonsView.swift */; };
+		4C7E816F2B8354EB00CFE55A /* ButtonLikeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C7E816E2B8354EB00CFE55A /* ButtonLikeView.swift */; };
+		4C7E81712B8355AF00CFE55A /* ExerciseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C7E81702B8355AF00CFE55A /* ExerciseView.swift */; };
+		4C7E81732B83560800CFE55A /* MeditationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C7E81722B83560800CFE55A /* MeditationView.swift */; };
+		4C7E81752B83561A00CFE55A /* RelaxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C7E81742B83561A00CFE55A /* RelaxView.swift */; };
+		4C7E81772B83562900CFE55A /* FocusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C7E81762B83562900CFE55A /* FocusView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +50,12 @@
 		4C7E81592B83539600CFE55A /* MC3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MC3UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C7E815D2B83539600CFE55A /* MC3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MC3UITests.swift; sourceTree = "<group>"; };
 		4C7E815F2B83539600CFE55A /* MC3UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MC3UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4C7E816C2B8353F700CFE55A /* ButtonsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonsView.swift; sourceTree = "<group>"; };
+		4C7E816E2B8354EB00CFE55A /* ButtonLikeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonLikeView.swift; sourceTree = "<group>"; };
+		4C7E81702B8355AF00CFE55A /* ExerciseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseView.swift; sourceTree = "<group>"; };
+		4C7E81722B83560800CFE55A /* MeditationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeditationView.swift; sourceTree = "<group>"; };
+		4C7E81742B83561A00CFE55A /* RelaxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RelaxView.swift; sourceTree = "<group>"; };
+		4C7E81762B83562900CFE55A /* FocusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,8 +108,14 @@
 			children = (
 				4C7E81422B83539500CFE55A /* MC3App.swift */,
 				4C7E81442B83539500CFE55A /* ContentView.swift */,
+				4C7E816C2B8353F700CFE55A /* ButtonsView.swift */,
 				4C7E81462B83539600CFE55A /* Assets.xcassets */,
 				4C7E81482B83539600CFE55A /* Preview Content */,
+				4C7E816E2B8354EB00CFE55A /* ButtonLikeView.swift */,
+				4C7E81702B8355AF00CFE55A /* ExerciseView.swift */,
+				4C7E81722B83560800CFE55A /* MeditationView.swift */,
+				4C7E81742B83561A00CFE55A /* RelaxView.swift */,
+				4C7E81762B83562900CFE55A /* FocusView.swift */,
 			);
 			path = MC3;
 			sourceTree = "<group>";
@@ -257,8 +275,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C7E816D2B8353F700CFE55A /* ButtonsView.swift in Sources */,
 				4C7E81452B83539500CFE55A /* ContentView.swift in Sources */,
 				4C7E81432B83539500CFE55A /* MC3App.swift in Sources */,
+				4C7E816F2B8354EB00CFE55A /* ButtonLikeView.swift in Sources */,
+				4C7E81732B83560800CFE55A /* MeditationView.swift in Sources */,
+				4C7E81772B83562900CFE55A /* FocusView.swift in Sources */,
+				4C7E81752B83561A00CFE55A /* RelaxView.swift in Sources */,
+				4C7E81712B8355AF00CFE55A /* ExerciseView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
