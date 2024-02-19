@@ -22,20 +22,19 @@ struct ButtonsView: View {
                     NavigationLink {
                         MeditationView()
                     } label: {
-                        ButtonLikeView("Meditation")
+                        ButtonLikeView("Meditation", icon: "figure.yoga")
                     }
                     NavigationLink {
                         RelaxView()
                     } label: {
-                        ButtonLikeView("Relax")
+                        ButtonLikeView("Relax", icon: "bed.double")
                     }
                     NavigationLink {
                         FocusView()
                     } label: {
-                        ButtonLikeView("Focus")
+                        ButtonLikeView("Focus", icon: "circle.dotted.circle")
                     }
                 }
-                .buttonStyle(.borderedProminent)
             }
         }
     }
